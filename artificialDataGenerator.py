@@ -6,7 +6,7 @@ from Curve import Curve
 
 __author__ = 'sean_moorhead'
 
-OUT_FILE = "../PG1159-035/artificialData/1993_March.dat"
+OUT_FILE = "outfilename.dat"
 SEC_IN_YEAR = 31557600  # 1 year = 365.25 days,  1 day = 24 hours
 STEP = 10 # step size for data points in seconds
 START_DATE = 1993.25 # in years

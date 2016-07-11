@@ -5,8 +5,8 @@ from Curve import *
 __author__ = 'sean_moorhead'
 
 # global variables
-INFILE = '../PG1159-035/pg1159lcs/pdot/517_1_pre2002.dat'
-OUTFILE = '../PG1159-035/pg1159lcs/pdot/517_1_full.dat'
+INFILE = 'inputFile.dat'
+OUTFILE = 'outputFile.dat'
 OUTPUT_STEP = 0.5
 DEG = 2
 SEC_IN_YEAR = 31557600  # 1 year = 365.25 days,  1 day = 24 hours

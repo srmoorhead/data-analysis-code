@@ -5,11 +5,11 @@ from math import sqrt
 
 # global variables
 # largely for convenience
-FREQ_FILE_STRING = '../PG1159-035/pg1159lcs/2008lcs/moorhead/trimmed/2008_frequencies.per'
-ERR_FILE_STRING = '../PG1159-035/pg1159lcs/2008lcs/moorhead/trimmed/2008_frequencies.err'
+FREQ_FILE_STRING = 'frequenciesFile.per'
+ERR_FILE_STRING = 'frequencyErrorsFile.err'
 SAVE_DATA = True
-MODE_OUT_FILE_STRING = '../PG1159-035/pg1159lcs/2008lcs/moorhead/trimmed/2008_modes.dat'
-COMBOS_OUT_FILE_STRING = '../PG1159-035/pg1159lcs/2008lcs/moorhead/trimmed/2008_combos.dat'
+MODE_OUT_FILE_STRING = 'modesOutput.dat'
+COMBOS_OUT_FILE_STRING = 'combinationsOutput.dat'
 SEARCH_RANGE = range(1, 5)  # range(1, 11) will search from 1 through 10
 
 '''

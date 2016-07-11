@@ -5,9 +5,9 @@ from BasicIO import lc_read_in, freq_read_in, build_fit
 __author__ = 'sean_moorhead'
 
 # global variables
-F_FILE = "../PG1159-035/pg1159lcs/2008lcs/moorhead/trimmed/halves/top23_trimmed_2o2.per"
-LC_FILE = "../PG1159-035/pg1159lcs/2008lcs/lightcurves/pg1159xcov27_trimmed_2o2.dat"
-OUT_FILE = "../PG1159-035/pg1159lcs/2008lcs/moorhead/trimmed/halves/top23_trimmed_2o2_fitcurve.dat"
+F_FILE = "frequenciesFile.per"
+LC_FILE = "lightcurveFile.dat"
+OUT_FILE = "outputFile.dat"
 
 def build_curve_from_fit_data():
     lc = lc_read_in(LC_FILE)
